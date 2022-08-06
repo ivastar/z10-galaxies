@@ -97,10 +97,6 @@ properties:
   required: False
   group: Extra
   key: extra_muv_err_minus
-
-
-
-
 - name: 'F090W'
   kind: float
   units: ""
