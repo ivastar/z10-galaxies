@@ -15,10 +15,70 @@ default_ref:
   value: 2022arXiv220709436C
 extra_jwst_program:
   origin: ''
-  value: 1324
+  value: '1324'
+extra_mass:
+  origin: ''
+  value: ''
+extra_mass_err_minus:
+  origin: ''
+  value: ''
+extra_mass_err_plus:
+  origin: ''
+  value: ''
 extra_muv:
   origin: ''
-  value: -19.49
+  value: '-19.49'
+extra_muv_err_minus:
+  origin: ''
+  value: ''
+extra_muv_err_plus:
+  origin: ''
+  value: ''
+extra_phot_z_err_minus:
+  origin: ''
+  value: ''
+extra_phot_z_err_plus:
+  origin: ''
+  value: ''
+extra_spec_z:
+  origin: ''
+  value: ''
+extra_spec_z_err:
+  origin: ''
+  value: ''
+photometry_F090W:
+  origin: ''
+  value: ''
+photometry_F090We:
+  origin: ''
+  value: ''
+photometry_F150W:
+  origin: ''
+  value: ''
+photometry_F150We:
+  origin: ''
+  value: ''
+photometry_F200W:
+  origin: ''
+  value: ''
+photometry_F200We:
+  origin: ''
+  value: ''
+photometry_F277W:
+  origin: ''
+  value: ''
+photometry_F277We:
+  origin: ''
+  value: ''
+photometry_F356W:
+  origin: ''
+  value: ''
+photometry_F356We:
+  origin: ''
+  value: ''
 photometry_F444W:
   origin: ''
-  value: 27.85
+  value: '27.85'
+photometry_F444We:
+  origin: ''
+  value: ''

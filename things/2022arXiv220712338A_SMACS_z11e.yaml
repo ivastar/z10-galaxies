@@ -15,28 +15,70 @@ default_ref:
   value: 2022arXiv220712338A
 extra_jwst_program:
   origin: ''
-  value: 2736
+  value: '2736'
 extra_mass:
   origin: ''
-  value: 7.87
+  value: '7.87'
 extra_mass_err_minus:
   origin: ''
-  value: 0.48
+  value: '0.48'
 extra_mass_err_plus:
   origin: ''
-  value: 0.49
+  value: '0.49'
 extra_muv:
   origin: ''
-  value: -19.23
-extra_muv_err_down:
+  value: '-19.23'
+extra_muv_err_minus:
   origin: ''
-  value: -0.33
-extra_muv_err_up:
+  value: '-0.33'
+extra_muv_err_plus:
   origin: ''
-  value: 0.33
+  value: '0.33'
 extra_phot_z_err_minus:
   origin: ''
-  value: -9.76
+  value: '-9.76'
 extra_phot_z_err_plus:
   origin: ''
-  value: 9.76
+  value: '9.76'
+extra_spec_z:
+  origin: ''
+  value: ''
+extra_spec_z_err:
+  origin: ''
+  value: ''
+photometry_F090W:
+  origin: ''
+  value: ''
+photometry_F090We:
+  origin: ''
+  value: ''
+photometry_F150W:
+  origin: ''
+  value: ''
+photometry_F150We:
+  origin: ''
+  value: ''
+photometry_F200W:
+  origin: ''
+  value: ''
+photometry_F200We:
+  origin: ''
+  value: ''
+photometry_F277W:
+  origin: ''
+  value: ''
+photometry_F277We:
+  origin: ''
+  value: ''
+photometry_F356W:
+  origin: ''
+  value: ''
+photometry_F356We:
+  origin: ''
+  value: ''
+photometry_F444W:
+  origin: ''
+  value: ''
+photometry_F444We:
+  origin: ''
+  value: ''

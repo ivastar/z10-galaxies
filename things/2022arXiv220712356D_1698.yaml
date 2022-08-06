@@ -15,13 +15,70 @@ default_ref:
   value: 2022arXiv220712356D
 extra_jwst_program:
   origin: ''
-  value: 1324
+  value: '1324'
+extra_mass:
+  origin: ''
+  value: ''
+extra_mass_err_minus:
+  origin: ''
+  value: ''
+extra_mass_err_plus:
+  origin: ''
+  value: ''
 extra_muv:
   origin: ''
-  value: 20.58
+  value: '20.58'
+extra_muv_err_minus:
+  origin: ''
+  value: ''
+extra_muv_err_plus:
+  origin: ''
+  value: ''
 extra_phot_z_err_minus:
   origin: ''
-  value: -0.47
+  value: '-0.47'
 extra_phot_z_err_plus:
   origin: ''
-  value: 0.51
+  value: '0.51'
+extra_spec_z:
+  origin: ''
+  value: ''
+extra_spec_z_err:
+  origin: ''
+  value: ''
+photometry_F090W:
+  origin: ''
+  value: ''
+photometry_F090We:
+  origin: ''
+  value: ''
+photometry_F150W:
+  origin: ''
+  value: ''
+photometry_F150We:
+  origin: ''
+  value: ''
+photometry_F200W:
+  origin: ''
+  value: ''
+photometry_F200We:
+  origin: ''
+  value: ''
+photometry_F277W:
+  origin: ''
+  value: ''
+photometry_F277We:
+  origin: ''
+  value: ''
+photometry_F356W:
+  origin: ''
+  value: ''
+photometry_F356We:
+  origin: ''
+  value: ''
+photometry_F444W:
+  origin: ''
+  value: ''
+photometry_F444We:
+  origin: ''
+  value: ''
