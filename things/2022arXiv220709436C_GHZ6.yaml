@@ -1,0 +1,24 @@
+default_dec:
+  origin: ''
+  value: -30.327159
+default_id:
+  origin: ''
+  value: GHZ6
+default_phot_z:
+  origin: ''
+  value: 9.1
+default_ra:
+  origin: ''
+  value: 3.490391
+default_ref:
+  origin: ''
+  value: 2022arXiv220709436C
+extra_jwst_program:
+  origin: ''
+  value: 1324
+extra_muv:
+  origin: ''
+  value: -18.95
+photometry_F444W:
+  origin: ''
+  value: 28.14

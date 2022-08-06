@@ -1,0 +1,39 @@
+default_dec:
+  origin: ''
+  value: -30.35155556
+default_id:
+  origin: ''
+  value: GL-z9-2
+default_phot_z:
+  origin: ''
+  value: 10.63
+default_ra:
+  origin: ''
+  value: 3.51375
+default_ref:
+  origin: ''
+  value: 2022arXiv220801612H
+extra_jwst_program:
+  origin: ''
+  value: 1324
+extra_muv:
+  origin: ''
+  value: -18.7
+extra_muv_err_down:
+  origin: ''
+  value: -0.1
+extra_muv_err_up:
+  origin: ''
+  value: 0.1
+extra_phot_z_err_minus:
+  origin: ''
+  value: -0.59
+extra_phot_z_err_plus:
+  origin: ''
+  value: 0.38
+photometry_F356W:
+  origin: ''
+  value: 28.2
+photometry_F356We:
+  origin: ''
+  value: 0.1

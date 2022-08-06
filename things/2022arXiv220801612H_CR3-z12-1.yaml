@@ -1,0 +1,33 @@
+default_dec:
+  origin: ''
+  value: 52.82605556
+default_id:
+  origin: ''
+  value: CR3-z12-1
+default_phot_z:
+  origin: ''
+  value: 11.66
+default_ra:
+  origin: ''
+  value: 214.7962917
+default_ref:
+  origin: ''
+  value: 2022arXiv220801612H
+extra_jwst_program:
+  origin: ''
+  value: 1345
+extra_muv:
+  origin: ''
+  value: -18.3
+extra_muv_err_down:
+  origin: ''
+  value: -0.5
+extra_muv_err_up:
+  origin: ''
+  value: 0.5
+extra_phot_z_err_minus:
+  origin: ''
+  value: -1.29
+extra_phot_z_err_plus:
+  origin: ''
+  value: 1.83

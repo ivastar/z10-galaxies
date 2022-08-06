@@ -1,0 +1,42 @@
+default_dec:
+  origin: ''
+  value: -73.446976
+default_id:
+  origin: ''
+  value: ZD4
+default_phot_z:
+  origin: ''
+  value: 9.88
+default_ra:
+  origin: ''
+  value: 110.79638
+default_ref:
+  origin: ''
+  value: 2022arXiv220711671M
+extra_jwst_program:
+  origin: ''
+  value: 2736
+extra_mass:
+  origin: ''
+  value: 9.04
+extra_mass_err_minus:
+  origin: ''
+  value: 0.18
+extra_mass_err_plus:
+  origin: ''
+  value: 0.81
+extra_muv:
+  origin: ''
+  value: -19.22
+extra_muv_err_down:
+  origin: ''
+  value: -0.16
+extra_muv_err_up:
+  origin: ''
+  value: 0.13
+extra_phot_z_err_minus:
+  origin: ''
+  value: -0.67
+extra_phot_z_err_plus:
+  origin: ''
+  value: 0.69

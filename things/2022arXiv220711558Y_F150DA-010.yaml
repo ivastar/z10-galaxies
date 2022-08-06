@@ -1,0 +1,21 @@
+default_dec:
+  origin: ''
+  value: -73.49615
+default_id:
+  origin: ''
+  value: F150DA-010
+default_phot_z:
+  origin: ''
+  value: 12.8
+default_ra:
+  origin: ''
+  value: 110.6670417
+default_ref:
+  origin: ''
+  value: 2022arXiv220711558Y
+extra_jwst_program:
+  origin: ''
+  value: 2736
+photometry_F090W:
+  origin: ''
+  value: 29.16

@@ -1,0 +1,33 @@
+default_dec:
+  origin: ''
+  value: -73.47580556
+default_id:
+  origin: ''
+  value: SM-z12-1
+default_phot_z:
+  origin: ''
+  value: 11.52
+default_ra:
+  origin: ''
+  value: 110.743125
+default_ref:
+  origin: ''
+  value: 2022arXiv220801612H
+extra_jwst_program:
+  origin: ''
+  value: 2736
+extra_muv:
+  origin: ''
+  value: -18.0
+extra_muv_err_down:
+  origin: ''
+  value: -0.1
+extra_muv_err_up:
+  origin: ''
+  value: 0.1
+extra_phot_z_err_minus:
+  origin: ''
+  value: -0.83
+extra_phot_z_err_plus:
+  origin: ''
+  value: 2.06
