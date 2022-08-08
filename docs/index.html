@@ -5,7 +5,7 @@ title: "Orgs Example - orgs/jekyll.yml,octopress.yml"
 <h1>{{ page.title }}</h1> 
   
 <ul>
-{% for org_hash in site.data.orgs %}
+{% for org_hash in site.data %}
 {% assign org = org_hash[1] %}
   <li>
     <a href="https://ui.adsabs.harvard.edu/abs/{{ org.default_ref }}/abstract">
