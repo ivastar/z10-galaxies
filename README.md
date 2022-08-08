@@ -1,43 +1,44 @@
-# Arfon's Fantastic List of Brown Dwarfs
+# Iva's Fantastic List of z>=10 Galaxies
 
-This is a test repository for the MAST Lists service. This repository contains a `List` definition, `list.yaml` which defines the properties of the List, together with the available properties for `Things` in the `List`:
+This repository contains a `List` definition, `list.yaml` which defines the properties of the List, together with the available properties for `Things` in the `List`:
 
 ```YAML
-name: "Arfon's Fantastic List of Brown Dwarfs"
-description: "Arfon's list of brown dwarfs. Hand-picked just for you."
+name: "A Fantastic List of z>10 Galaxies"
+description: "Iva's list of z>10 galaxies, mostly discovered by JWST. Collected from the arXiv from July 13, 2022 up to now."
 properties:
-  - name: "Short Name"
-    kind: "String"
-    units: ""
-    required: "true"
-    group: "Default"
-    key: "default_short_name"
+- name: ID
+  kind: string
+  units: ""
+  required: True
+  group: Default
+  key: default_id
 ```
 
-`List` items (known as `Things`) are in the `things` folder and follow a format of one `Thing` per YAML file. `Thing` definition files can follow any naming convention. The filename for a `Thing` is not special but in this case we're using the filename to make it more straightforward to identify the brown dwarf we're describing (e.g. `1658+1820.yaml`)
+`List` items (known as `Things`) are in the `things` folder and follow a format of one `Thing` per YAML file. `Thing` definition files can follow any naming convention. The filename for a `Thing` is not special but in this case we're using the filename to make it more straightforward to identify the galaxy we're describing with the arXiv number and galaxy ID (e.g. `2022arXiv220709434N_GL-z11.yaml`)
 
 `Thing` YAML definitions may only contain properties that are already defined on the parent `List` in `list.yaml`:
 
 ```YAML
-default_short_name:
-  value: "1658+1820"
-  origin: ""
-default_alternate_designation:
-  value: "SDSS J16585026+1820006"
-  origin: "https://arxiv.org/abs/1408.3089"
-default_distance:
-  value: ""
-  origin: ""
+default_id:
+  origin: ''
+  value: GL-z11
 default_ra:
-  value: "254.709737"
-  origin: ""
+  origin: ''
+  value: 3.51191667
 default_dec:
-  value: "18.333275"
+  origin: ''
+  value: -30.37186111
+default_phot_z:
+  origin: ''
+  value: 10.9
+default_ref:
+  origin: ''
+  value: 2022arXiv220709434N
   origin: ""
 ```
 
 ## Data Validation
 
-[![Build Status](https://travis-ci.org/arfon/brown_dwarfs.svg?branch=master)](https://travis-ci.org/arfon/brown_dwarfs)
+https://github.com/ivastar/z10-galaxies/actions/workflows/ci.yml/badge.svg
 
-This List repository knows how to validate itself by running the tests in `list_test.rb`. Any modifications to the `Thing` YAML files or the `List` definition in `list.yaml` will be tested by Travis-CI.
+This List repository knows how to validate itself by running the tests in `test_list.py`. Any modifications to the `Thing` YAML files or the `List` definition in `list.yaml` will be tested by GitHub Actions CI.
