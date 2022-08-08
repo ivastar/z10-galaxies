@@ -1,0 +1,37 @@
+{% include video_skills_table.md
+  items="ID,RA,Dec,PhotRedshift,Reference" file="things/2022arXiv220709434N_GL-z11.yaml"
+  caption="Fruit Descriptions" %}
+
+  {% assign tableItems = include.items | split: ", " %}
+  {% assign tableFileParam = {{include.file}} %}
+  {% assign tableFile = site.data[tableFileParam] %}
+
+
+<table class="grid" style="width: 100%">
+    <caption></caption>
+    <colgroup>
+        <col width="20%" />
+        <col width="65%" />
+        <col width="15%" />
+    </colgroup>
+    <thead>
+        <tr class="header">
+            <th>ID</th>
+            <th>RA</th>
+            <th>Dec</th>
+            <th>PhotRedshift</th>
+            <th>Reference</th>
+        </tr>
+    </thead>
+    <tbody>
+      {% for entry in tableItems %}
+          <tr>
+            <td>{{ tableFile[entry].field }}<br/>
+            {% if tableFile[entry].required == true %}<span class="tableRequired">required</span>{% endif %}</td>
+            <td>{{tableFile[entry]description}}
+            {% if tableFile[entry].values != empty %}{{ tableFile[entry].values }}{% endif %}</td>
+            <td>{{ tableFile[entry].type }}</td>
+          </tr>
+      {% endfor %}
+    </tbody>
+</table>
