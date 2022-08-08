@@ -39,6 +39,6 @@ default_ref:
 
 ## Data Validation
 
-https://github.com/ivastar/z10-galaxies/actions/workflows/ci.yml/badge.svg
+![This is an image](https://github.com/ivastar/z10-galaxies/actions/workflows/ci.yml/badge.svg)
 
 This List repository knows how to validate itself by running the tests in `test_list.py`. Any modifications to the `Thing` YAML files or the `List` definition in `list.yaml` will be tested by GitHub Actions CI.
