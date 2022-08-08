@@ -11,10 +11,10 @@
 {% for org_hash in site.data.orgs %}
 {% assign org = org_hash[1] %}
   <li>
-    <a href="https://github.com/{{ org.username }}">
-      {{ org.name }}
+    <a href="https://ui.adsabs.harvard.edu/abs/{{ org.default_ref }}/abstract">
+      {{ org.default_ref }}
     </a>
-    ({{ org.members | size }} members)
+    ({{ org.default_id }}, {{ org.default_ra }}, {{ org.default_dec }}, {{ org.default_phot_z }})
   </li>
 {% endfor %}
 </ul>
