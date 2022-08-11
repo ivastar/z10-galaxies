@@ -1,0 +1,19 @@
+# website name
+title: z10 things
+# website URL
+baseURL: 'https://ivastar.github.io/z10-galaxies/'
+
+#theme
+theme: "default"
+# content directory
+sourcedir: "content"
+# Anything to add to the build into a static folder
+staticdir: "static"
+# build directory
+builddir: "_build/html"
+
+# setup markdown options
+markdown:
+  # https://python-markdown.github.io/extensions/
+  extensions:
+    - extra
