@@ -8,9 +8,13 @@ theme: "default"
 # content directory
 sourcedir: "content"
 # Anything to add to the build into a static folder
-staticdir: "static"
+#staticdir: "static"
 # build directory
 builddir: "_build/html"
+# columns for Table
+columns: ['default_id','default_ra','default_dec','default_phot_z','extra_spec_z','extra_muv','extra_mass','default_ref']
+columns_title: ['ID','RA','Dec','z_phot','z_spec','Muv','M*','Reference']
+
 
 # setup markdown options
 markdown:
