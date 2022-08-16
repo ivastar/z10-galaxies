@@ -1,4 +1,44 @@
+# Iva's Fantastic List of z>=10 Galaxies
 
- | ID          | RA          | Dec         | z_phot      | z_phot_error   | Reference   | z_spec +- err | Mstar |  Mstar_err | Muv | Muv_err | JWST program | F090W +- err | F150W +- err | F200W +- err | F277W +- err | F356W +- err | F444W +- err |
- | ----------- | ----------- | ----------- | ----------- | -------------- | ----------- | --------------|-------|------------|-----|---------|--------------|--------------|--------------|--------------|--------------|--------------|--------------|{% for org_hash in site.data %}{% assign org = org_hash[1] %}  
-    | {{ org.default_id.value }} | {{ org.default_ra.value }} | {{ org.default_dec.value }} | {{ org.default_phot_z.value }} | + {{ org.extra_phot_z_err_plus.value }}/-{{ org.extra_phot_z_err_plus.value }} | <a href="https://ui.adsabs.harvard.edu/abs/{{ org.default_ref.value }}/abstract">{{ org.default_ref.value }}</a> | {{org.extra_spec_z.value}}+-{{org.extra_spec_z_err.value}} | {{org.extra_mass.value}} | +{{ org.extra_mass_err.value }}-{{ org.extra_mass_err.value }} | {{org.extra_muv.value}} | +{{ org.extra_muv_err.value }}-{{ org.extra_muv_err.value }} |  {{org.extra_jwst_program.value}} | {{org.photometry_F090W.value}}+-{{org.photometry_F090We.value}} | {{org.photometry_F150W.value}}+-{{org.photometry_F150We.value}} |  {{org.photometry_F200W.value}}+-{{org.photometry_F200We.value}} | {{org.photometry_F277W.value}}+-{{org.photometry_F277We.value}} | {{org.photometry_F356W.value}}+-{{org.photometry_F356We.value}} | {{org.photometry_F444W.value}}+-{{org.photometry_F444We.value}} |{% endfor %}
+This repository contains a `List` definition, `list.yaml` which defines the properties of the List, together with the available properties for `Things` in the `List`:
+
+```YAML
+name: "A Fantastic List of z>10 Galaxies"
+description: "Iva's list of z>10 galaxies, mostly discovered by JWST. Collected from the arXiv from July 13, 2022 up to now."
+properties:
+- name: ID
+  kind: string
+  units: ""
+  required: True
+  group: Default
+  key: default_id
+```
+
+`List` items (known as `Things`) are in the `things` folder and follow a format of one `Thing` per YAML file. `Thing` definition files can follow any naming convention. The filename for a `Thing` is not special but in this case we're using the filename to make it more straightforward to identify the galaxy we're describing with the arXiv number and galaxy ID (e.g. `2022arXiv220709434N_GL-z11.yaml`)
+
+`Thing` YAML definitions may only contain properties that are already defined on the parent `List` in `list.yaml`:
+
+```YAML
+default_id:
+  origin: ''
+  value: GL-z11
+default_ra:
+  origin: ''
+  value: 3.51191667
+default_dec:
+  origin: ''
+  value: -30.37186111
+default_phot_z:
+  origin: ''
+  value: 10.9
+default_ref:
+  origin: ''
+  value: 2022arXiv220709434N
+  origin: ""
+```
+
+## Data Validation
+
+![This is an image](https://github.com/ivastar/z10-galaxies/actions/workflows/ci.yml/badge.svg)
+
+This List repository knows how to validate itself by running the tests in `test_list.py`. Any modifications to the `Thing` YAML files or the `List` definition in `list.yaml` will be tested by GitHub Actions CI.
