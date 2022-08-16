@@ -8,7 +8,7 @@ import pytest
 
 
 # Grab all the things
-things_files = glob.glob('things/*yaml')
+things_files = glob.glob('things/*yml')
 
 def test_repo_structure():
     assert os.path.exists('list.yaml') == True, "There doesn't seem to be a `list.yaml` file present"
@@ -40,13 +40,10 @@ def test_list_properties(thing):
         for dic in list_yaml['properties']:
             property_keys.append(dic['key'])
 
-    # Grab all the things
-    things_files = glob.glob('things/*yaml')
-
     # For each Thing file check that we're not defining invalid properties
     with open(thing) as f:
         thing_yaml = yaml.load(f, Loader=SafeLoader)
-        thing_name = os.path.basename(thing).replace('.yaml','')
+        thing_name = os.path.basename(thing).replace('.yml','')
         thing_property_keys = thing_yaml.keys()
 
         invalid_keys = set(thing_property_keys) - set(property_keys)
@@ -72,7 +69,7 @@ def test_required_list_properties(thing):
 
     with open(thing) as f:
         thing_yaml = yaml.load(f, Loader=SafeLoader)
-        thing_name = os.path.basename(thing).replace('.yaml','')
+        thing_name = os.path.basename(thing).replace('.yml','')
         thing_property_keys = thing_yaml.keys()
 
         for key in required_property_keys.keys():
