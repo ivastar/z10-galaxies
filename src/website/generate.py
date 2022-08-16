@@ -178,7 +178,7 @@ class Generator(dict):
     @property
     def things_dir(self):
         """ Root directory of the data."""
-        return self.theme_dir.replace('src/website','things')
+        return os.path.join(self.theme_dir,'things')
 
     @property
     def template_dir(self):
@@ -203,7 +203,7 @@ class Generator(dict):
         configuration:
             * content directory: {root_dir}
             * building directory: {build_dir}
-            * theme directory: {self.theme_dir}
+            * website directory: {self.theme_dir}
             * template directory: {self.template_dir}
         """))
 
@@ -217,6 +217,7 @@ class Generator(dict):
         shutil.copytree(os.path.join(self.template_dir, 'assets'), os.path.join(build_dir, "assets"))
         print(f'Copy assets from {os.path.join(self.template_dir, "assets")} to {os.path.join(build_dir, "assets")}')
 
+        print(self.things_dir, os.path.join(build_dir, "things"))
         shutil.copytree(self.things_dir, os.path.join(build_dir, "things"))
         print(f'Copy things from {self.things_dir} to {os.path.join(build_dir, "things")}')
 
