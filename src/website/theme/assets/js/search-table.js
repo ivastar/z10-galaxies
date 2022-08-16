@@ -9,7 +9,7 @@ $(document).ready(function () {
         dom: 'Bfrtip',
         buttons: ['copy', 'csv', 'excel', 'pdf'],
         orderCellsTop: true,
-        fixedHeader: true,
+        fixedHeader: false,
         paging: false,
         ordering: false,
         info: false,

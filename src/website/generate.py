@@ -176,6 +176,11 @@ class Generator(dict):
         return os.path.dirname(os.path.realpath(__file__))
 
     @property
+    def things_dir(self):
+        """ Root directory of the data."""
+        return self.theme_dir.replace('src/website','things')
+
+    @property
     def template_dir(self):
         """ Root directory of the theme."""
         return os.path.join(self.theme_dir, 'theme')
@@ -210,49 +215,18 @@ class Generator(dict):
         # copy theme resource files
 
         shutil.copytree(os.path.join(self.template_dir, 'assets'), os.path.join(build_dir, "assets"))
-        print(os.path.join(self.template_dir, 'assets'), os.path.join(build_dir, "assets"))
+        print(f'Copy assets from {os.path.join(self.template_dir, "assets")} to {os.path.join(build_dir, "assets")}')
 
-        # copy static files
-        #shutil.copytree(self['staticdir'],
-        #                os.path.join(build_dir, "static"))
+        shutil.copytree(self.things_dir, os.path.join(build_dir, "things"))
+        print(f'Copy things from {self.things_dir} to {os.path.join(build_dir, "things")}')
 
         with open(self.index_template, 'r') as f:
             print('Reading index template...', self.index_template)
             template = f.read()
 
-        # Some global information about self
-        #fname = f'{root_dir}/aboutme.md'
-        #data = content_from_file(fname)
-
-        # social links
-        #social_links = []
-        #for element in data['meta']['social']:
-        #    icon = get_icon(element['icon'])
-        #     url = element['link']
-        #    social_links.append(get_href(url, text=icon, newpage=True))
-
-        #email = [k['email'] for k in data['meta']['contact'] if 'email' in k][0]
-
-        # background image on title
-        #background_image = 'url({0:s})'.format(data['meta']['background_image'])
-
-        # keep various sections
-        #sections = []
-        # Navigation bar
-        #nav = []
-
-        #for section in header['content']:
-        #    fname = os.path.join(root_dir, section + '.md')
-        #    txt, reference = self.build(fname,
-        #                                source_dir=root_dir,
-        #                                build_dir=build_dir,
-        #                                baseURL=self['baseURL'],)
-        #    sections.append(txt)
-        #    nav.append(reference)
-
         table_head = generate_table_head(self['columns_title'])
 
-        things = glob.glob('../things/*yml')
+        things = glob.glob(os.path.join(build_dir,'things/*yml'))
         table_body = ''
         for thing in things:
             with open(thing) as f:
