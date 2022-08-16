@@ -1,15 +1,15 @@
-default_dec:
-  value: -73.44653611
 default_id:
-  value: '35470'
-default_phot_z:
-  value: 12.03
+  value:
 default_ra:
-  value: 110.762375
+    value:
+default_dec:
+  value:
+default_phot_z:
+  value:
 default_ref:
-  value: 2022arXiv220712356D
+  value:
 extra_jwst_program:
-  value: '2736'
+  value: ''
 extra_mass:
   value: ''
 extra_mass_err_minus:
@@ -17,15 +17,15 @@ extra_mass_err_minus:
 extra_mass_err_plus:
   value: ''
 extra_muv:
-  value: '19.18'
+  value: ''
 extra_muv_err_minus:
   value: ''
 extra_muv_err_plus:
   value: ''
 extra_phot_z_err_minus:
-  value: '-0.64'
+  value: ''
 extra_phot_z_err_plus:
-  value: '1.85'
+  value: ''
 extra_spec_z:
   value: ''
 extra_spec_z_err:

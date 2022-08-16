@@ -1,84 +1,56 @@
 default_dec:
-  origin: ''
   value: -73.46793361
 default_id:
-  origin: ''
   value: SMACS_z16a
 default_phot_z:
-  origin: ''
   value: 15.97
 default_ra:
-  origin: ''
   value: 110.8599708
 default_ref:
-  origin: ''
   value: 2022arXiv220712338A
 extra_jwst_program:
-  origin: ''
   value: '2736'
 extra_mass:
-  origin: ''
   value: '8.36'
 extra_mass_err_minus:
-  origin: ''
   value: '0.42'
 extra_mass_err_plus:
-  origin: ''
   value: '0.43'
 extra_muv:
-  origin: ''
   value: '-21.23'
 extra_muv_err_minus:
-  origin: ''
   value: '-0.27'
 extra_muv_err_plus:
-  origin: ''
   value: '0.27'
 extra_phot_z_err_minus:
-  origin: ''
   value: '-0.37'
 extra_phot_z_err_plus:
-  origin: ''
   value: '0.37'
 extra_spec_z:
-  origin: ''
   value: ''
 extra_spec_z_err:
-  origin: ''
   value: ''
 photometry_F090W:
-  origin: ''
   value: ''
 photometry_F090We:
-  origin: ''
   value: ''
 photometry_F150W:
-  origin: ''
   value: ''
 photometry_F150We:
-  origin: ''
   value: ''
 photometry_F200W:
-  origin: ''
   value: ''
 photometry_F200We:
-  origin: ''
   value: ''
 photometry_F277W:
-  origin: ''
   value: ''
 photometry_F277We:
-  origin: ''
   value: ''
 photometry_F356W:
-  origin: ''
   value: ''
 photometry_F356We:
-  origin: ''
   value: ''
 photometry_F444W:
-  origin: ''
   value: ''
 photometry_F444We:
-  origin: ''
   value: ''
