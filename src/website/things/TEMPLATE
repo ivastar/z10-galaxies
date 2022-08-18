@@ -6,6 +6,8 @@ default_dec:
   value:
 default_phot_z:
   value:
+default_first_author:
+  value:
 default_ref:
   value:
 extra_jwst_program:
