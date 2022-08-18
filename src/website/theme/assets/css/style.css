@@ -11,6 +11,10 @@ h1, h2, h3, h4, h5, h6,
 .h1, .h2, .h3, .h4, .h5, .h6 {
   font-family: "Roboto Mono Bold", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; }
 
+h1, h2 {
+  padding: 25px 50px 50px 0px;
+}
+
 a {
   -webkit-transition: .3s all ease;
   -o-transition: .3s all ease;

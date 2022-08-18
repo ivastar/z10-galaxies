@@ -1,5 +1,7 @@
 default_dec:
   value: 52.90460556
+default_first_author:
+  value: Donnan
 default_id:
   value: '73150'
 default_phot_z:
@@ -25,7 +27,7 @@ extra_muv_err_plus:
 extra_phot_z_err_minus:
   value: '-0.52'
 extra_phot_z_err_plus:
-  value: '0.7'
+  value: '0.70'
 extra_spec_z:
   value: ''
 extra_spec_z_err:

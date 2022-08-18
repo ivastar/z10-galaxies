@@ -1,5 +1,7 @@
 default_dec:
   value: -30.32475
+default_first_author:
+  value: Naidu
 default_id:
   value: GL-z13
 default_phot_z:
@@ -11,21 +13,21 @@ default_ref:
 extra_jwst_program:
   value: '1324'
 extra_mass:
-  value: '12.4'
+  value: '12.40'
 extra_mass_err_minus:
-  value: '0.2'
+  value: '0.20'
 extra_mass_err_plus:
-  value: '0.2'
+  value: '0.20'
 extra_muv:
-  value: '-20.7'
+  value: '-20.70'
 extra_muv_err_minus:
-  value: '-0.1'
+  value: '-0.10'
 extra_muv_err_plus:
-  value: '0.1'
+  value: '0.10'
 extra_phot_z_err_minus:
-  value: '-0.7'
+  value: '-0.70'
 extra_phot_z_err_plus:
-  value: '0.8'
+  value: '0.80'
 extra_spec_z:
   value: ''
 extra_spec_z_err:

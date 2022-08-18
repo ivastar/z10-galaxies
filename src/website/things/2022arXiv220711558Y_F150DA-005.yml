@@ -1,5 +1,7 @@
 default_dec:
   value: -73.49861111
+default_first_author:
+  value: Yan
 default_id:
   value: F150DA-005
 default_phot_z:
@@ -31,26 +33,26 @@ extra_spec_z:
 extra_spec_z_err:
   value: ''
 photometry_F090W:
-  value: '29.16'
+  value: '>29.16'
 photometry_F090We:
   value: ''
 photometry_F150W:
-  value: ''
+  value: '28.88'
 photometry_F150We:
-  value: ''
+  value: '0.31'
 photometry_F200W:
-  value: ''
+  value: '28.05'
 photometry_F200We:
-  value: ''
+  value: '0.12'
 photometry_F277W:
-  value: ''
+  value: '28.19'
 photometry_F277We:
-  value: ''
+  value: '0.05'
 photometry_F356W:
-  value: ''
+  value: '28.36'
 photometry_F356We:
-  value: ''
+  value: '0.06'
 photometry_F444W:
-  value: ''
+  value: '28.28'
 photometry_F444We:
-  value: ''
+  value: '0.06'

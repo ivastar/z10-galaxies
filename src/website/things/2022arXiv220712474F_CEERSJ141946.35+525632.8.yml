@@ -1,5 +1,7 @@
 default_dec:
   value: 52.942449
+default_first_author:
+  value: Finkelstein
 default_id:
   value: CEERSJ141946.35+525632.8
 default_phot_z:
@@ -17,15 +19,15 @@ extra_mass_err_minus:
 extra_mass_err_plus:
   value: '0.33'
 extra_muv:
-  value: '-20.3'
+  value: '-20.30'
 extra_muv_err_minus:
-  value: '-0.1'
+  value: '-0.10'
 extra_muv_err_plus:
-  value: '0.1'
+  value: '0.10'
 extra_phot_z_err_minus:
-  value: '-1.1'
+  value: '-1.10'
 extra_phot_z_err_plus:
-  value: '0.4'
+  value: '0.40'
 extra_spec_z:
   value: ''
 extra_spec_z_err:

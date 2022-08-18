@@ -25,6 +25,12 @@ properties:
   required: True
   group: Default
   key: default_phot_z
+- name: FirstAuthor
+  kind: string
+  units: ""
+  required: True
+  group: Default
+  key: default_first_author
 - name: Reference
   kind: string
   units: ""

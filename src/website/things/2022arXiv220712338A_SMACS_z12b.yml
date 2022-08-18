@@ -1,5 +1,7 @@
 default_dec:
   value: -73.46541583
+default_first_author:
+  value: Atek
 default_id:
   value: SMACS_z12b
 default_phot_z:
@@ -17,11 +19,11 @@ extra_mass_err_minus:
 extra_mass_err_plus:
   value: '0.56'
 extra_muv:
-  value: '-21.1'
+  value: '-21.10'
 extra_muv_err_minus:
-  value: '-0.4'
+  value: '-0.40'
 extra_muv_err_plus:
-  value: '0.4'
+  value: '0.40'
 extra_phot_z_err_minus:
   value: '-0.68'
 extra_phot_z_err_plus:

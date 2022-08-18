@@ -1,5 +1,7 @@
 default_dec:
   value: 52.82652778
+default_first_author:
+  value: Harikane
 default_id:
   value: CR6-z12-1
 default_phot_z:
@@ -17,11 +19,11 @@ extra_mass_err_minus:
 extra_mass_err_plus:
   value: ''
 extra_muv:
-  value: '-18.1'
+  value: '-18.10'
 extra_muv_err_minus:
-  value: '-0.6'
+  value: '-0.60'
 extra_muv_err_plus:
-  value: '0.6'
+  value: '0.60'
 extra_phot_z_err_minus:
   value: '-1.09'
 extra_phot_z_err_plus:

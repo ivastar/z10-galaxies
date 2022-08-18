@@ -1,5 +1,7 @@
 default_dec:
   value: -73.46239472
+default_first_author:
+  value: Atek
 default_id:
   value: SMACS_z11e
 default_phot_z:

@@ -232,7 +232,7 @@ class Generator(dict):
         for thing in things:
             with open(thing) as f:
                 thing_yaml = yaml.load(f, Loader = SafeLoader)
-                table_body += generate_table_line(thing_yaml,self['columns'])
+                table_body += generate_table_line(thing_yaml,self['columns'], base_url = self['baseURL'])
 
 
 
@@ -245,15 +245,20 @@ class Generator(dict):
 
         print("\nWebsite generated into {}".format(build_dir))
 
-def generate_table_line(thing: dict = {}, columns: list = []):
+def generate_table_line(thing: dict = {}, columns: list = [], base_url=''):
 
     table_line = []
-    table_line.append(f'<tr><th scope="row">{thing[columns[0]]["value"]}</th>')
+    api_url = f'{base_url}things/{thing["default_ref"]["value"]}_{thing["default_id"]["value"]}.yml'
+    api_link = get_href(url=api_url, text=thing["default_id"]["value"])
+    table_line.append(f'<tr><th scope="row">{api_link}</th>')
+
     for col in columns[1:]:
         if col == 'default_ref':
+            year = thing[col]["value"][:4]
             url = 'https://ui.adsabs.harvard.edu/abs/'+thing[col]["value"]+'/abstract'
-            link = get_href(url=url, text=thing[col]["value"])
+            link = get_href(url=url, text=f'{thing["default_first_author"]["value"]} et al. ({year})')
             table_line.append(f'<td>{link}</td>')
+
         elif col == 'default_phot_z' and thing['extra_phot_z_err_plus']['value'] and thing['extra_phot_z_err_minus']['value']:
                 entry = f'{thing[col]["value"]}\
                     <span class="supsub">\
@@ -284,6 +289,7 @@ def generate_table_line(thing: dict = {}, columns: list = []):
                 entry += f'+-{thing["extra_spec_z_err"]["value"]}</td>'
             else:
                 entry += '</td>'
+            table_line.append(entry)
 
         else:
             table_line.append(f'<td>{thing[col]["value"]}</td>')

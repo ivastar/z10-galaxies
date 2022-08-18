@@ -1,5 +1,7 @@
 default_dec:
   value: -30.324767
+default_first_author:
+  value: Castellano
 default_id:
   value: GHZ2
 default_phot_z:
@@ -17,7 +19,7 @@ extra_mass_err_minus:
 extra_mass_err_plus:
   value: ''
 extra_muv:
-  value: '-21.3'
+  value: '-21.30'
 extra_muv_err_minus:
   value: ''
 extra_muv_err_plus:

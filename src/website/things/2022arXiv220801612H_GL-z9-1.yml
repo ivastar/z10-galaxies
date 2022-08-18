@@ -1,5 +1,7 @@
 default_dec:
   value: -30.37186111
+default_first_author:
+  value: Harikane
 default_id:
   value: GL-z9-1
 default_phot_z:
@@ -17,15 +19,15 @@ extra_mass_err_minus:
 extra_mass_err_plus:
   value: ''
 extra_muv:
-  value: '-20.2'
+  value: '-20.20'
 extra_muv_err_minus:
-  value: '-0.1'
+  value: '-0.10'
 extra_muv_err_plus:
-  value: '0.1'
+  value: '0.10'
 extra_phot_z_err_minus:
   value: '-0.54'
 extra_phot_z_err_plus:
-  value: '0.4'
+  value: '0.40'
 extra_spec_z:
   value: ''
 extra_spec_z_err:
@@ -47,9 +49,9 @@ photometry_F277W:
 photometry_F277We:
   value: ''
 photometry_F356W:
-  value: '26.5'
+  value: '26.50'
 photometry_F356We:
-  value: '0.1'
+  value: '0.10'
 photometry_F444W:
   value: ''
 photometry_F444We:

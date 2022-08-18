@@ -1,0 +1,58 @@
+default_dec:
+  value: -73.47802722
+default_first_author:
+  value: Atek
+default_id:
+  value: SMACS_z10d
+default_phot_z:
+  value: 9.98
+default_ra:
+  value: 110.6945667
+default_ref:
+  value: 2022arXiv220712338A
+extra_jwst_program:
+  value: '2736'
+extra_mass:
+  value: '7.85'
+extra_mass_err_minus:
+  value: '0.25'
+extra_mass_err_plus:
+  value: '0.56'
+extra_muv:
+  value: '-19.44'
+extra_muv_err_minus:
+  value: '-0.30'
+extra_muv_err_plus:
+  value: '0.30'
+extra_phot_z_err_minus:
+  value: '-7.97'
+extra_phot_z_err_plus:
+  value: '7.97'
+extra_spec_z:
+  value: ''
+extra_spec_z_err:
+  value: ''
+photometry_F090W:
+  value: ''
+photometry_F090We:
+  value: ''
+photometry_F150W:
+  value: ''
+photometry_F150We:
+  value: ''
+photometry_F200W:
+  value: ''
+photometry_F200We:
+  value: ''
+photometry_F277W:
+  value: ''
+photometry_F277We:
+  value: ''
+photometry_F356W:
+  value: ''
+photometry_F356We:
+  value: ''
+photometry_F444W:
+  value: ''
+photometry_F444We:
+  value: ''

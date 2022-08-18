@@ -1,5 +1,7 @@
 default_dec:
   value: -73.48792278
+default_first_author:
+  value: Atek
 default_id:
   value: SMACS_z10f
 default_phot_z:
@@ -13,7 +15,7 @@ extra_jwst_program:
 extra_mass:
   value: '7.86'
 extra_mass_err_minus:
-  value: '0.3'
+  value: '0.30'
 extra_mass_err_plus:
   value: '0.57'
 extra_muv:

@@ -1,5 +1,7 @@
 default_dec:
   value: -30.32475
+default_first_author:
+  value: Donnan
 default_id:
   value: '17487'
 default_phot_z:
