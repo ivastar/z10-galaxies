@@ -2,6 +2,8 @@
 
 This is a list of interesting things in this case high-redshift galaxies. All `things` are found in `src/website/things` folder. New `things` can be added via pull request or commit.
 
+The list currently inlcudes galaxies with photometric redshifts above 10 or withing 3 sigma of 10, if redshift uncertainties have been published. If your favorite galaxies are missing, open a pull request or open an issue.
+
 ## Webpage
 
 The data from this list is displayed on a GitHub Pages [webpage](https://ivastar.github.io/z10-galaxies/). The page has sortable columns, table search and per-column search, export options.
