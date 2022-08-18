@@ -62,7 +62,7 @@ This List repository knows how to validate itself by running the tests in `test_
 
 ## Make Your Own list
 
-Instructions on how to make your own list are available [here](https://github.com/ivastar/z10-galaxies/DIY.md).
+Instructions on how to make your own list are available [here](https://github.com/ivastar/z10-galaxies/blob/master/DIY.md).
 
 For questions, comments and suggestions for improvement, please open an issue.
 
