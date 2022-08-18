@@ -1,0 +1,58 @@
+default_dec:
+  value: 62.24205556
+default_first_author:
+  value: Oesch
+default_id:
+  value: GN-z11
+default_phot_z:
+  value: 10.2
+default_ra:
+  value: 189.1060833
+default_ref:
+  value: 2016ApJ...819..129O
+extra_jwst_program:
+  value: ''
+extra_mass:
+  value: ''
+extra_mass_err_minus:
+  value: ''
+extra_mass_err_plus:
+  value: ''
+extra_muv:
+  value: ''
+extra_muv_err_minus:
+  value: ''
+extra_muv_err_plus:
+  value: ''
+extra_phot_z_err_minus:
+  value: '-0.40'
+extra_phot_z_err_plus:
+  value: '0.40'
+extra_spec_z:
+  value: '10.9600'
+extra_spec_z_err:
+  value: '0.0001'
+photometry_F090W:
+  value: ''
+photometry_F090We:
+  value: ''
+photometry_F150W:
+  value: ''
+photometry_F150We:
+  value: ''
+photometry_F200W:
+  value: ''
+photometry_F200We:
+  value: ''
+photometry_F277W:
+  value: ''
+photometry_F277We:
+  value: ''
+photometry_F356W:
+  value: ''
+photometry_F356We:
+  value: ''
+photometry_F444W:
+  value: ''
+photometry_F444We:
+  value: ''
