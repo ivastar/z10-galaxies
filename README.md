@@ -60,7 +60,12 @@ The `src/website/things` folder also contains a `TEMPLATE` empty file should you
 
 This List repository knows how to validate itself by running the tests in `test_list.py`. Any modifications to the `Thing` YAML files or the `List` definition in `list.yaml` will be tested by GitHub Actions CI. All properties with `default` in the name must be set in order for the tests to pass. All properties must be included even of most of them are empty.
 
+## Make Your Own list
+
+Instructions on how to make your own list are available [here](https://github.com/ivastar/z10-galaxies/DIY.md).
+
+For questions, comments and suggestions for improvement, please open an issue.
+
 ## To Do
 
-- How to make your own list of thing
 - How to connect to a Google spreadsheet (maybe https://github.com/epetenko/google-sheets-scraper)
