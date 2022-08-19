@@ -49,12 +49,15 @@ default_dec:
   value: -30.37186111
 default_phot_z:
   value: 10.9
+default_first_author:
+  value: Author
 default_ref:
   value: 2022arXiv220709434N
 ```
 
-The `src/website/things` folder also contains a `TEMPLATE` empty file should you want to use that to generate a new thing easier.
+The `src/website/things` folder also contains an empty [`TEMPLATE`](https://github.com/ivastar/z10-galaxies/blob/master/src/website/things/TEMPLATE) file should you want to use that to generate a new thing easier.
 
+An example function to generate things is shown in [this gist](https://gist.github.com/ivastar/36466f0d97b0944caac42e0c12e4d95e).
 
 ## Data Validation
 
