@@ -1,0 +1,58 @@
+default_dec:
+  value: 52.82605556
+default_first_author:
+  value: Harikane
+default_id:
+  value: CR3-z12-1
+default_phot_z:
+  value: 11.66
+default_ra:
+  value: 214.7962917
+default_ref:
+  value: 2022arXiv220801612H
+extra_jwst_program:
+  value: '1345'
+extra_mass:
+  value: ''
+extra_mass_err_minus:
+  value: ''
+extra_mass_err_plus:
+  value: ''
+extra_muv:
+  value: '-18.30'
+extra_muv_err_minus:
+  value: '-0.50'
+extra_muv_err_plus:
+  value: '0.50'
+extra_phot_z_err_minus:
+  value: '-1.29'
+extra_phot_z_err_plus:
+  value: '1.83'
+extra_spec_z:
+  value: ''
+extra_spec_z_err:
+  value: ''
+photometry_F090W:
+  value: ''
+photometry_F090We:
+  value: ''
+photometry_F150W:
+  value: ''
+photometry_F150We:
+  value: ''
+photometry_F200W:
+  value: ''
+photometry_F200We:
+  value: ''
+photometry_F277W:
+  value: ''
+photometry_F277We:
+  value: ''
+photometry_F356W:
+  value: ''
+photometry_F356We:
+  value: ''
+photometry_F444W:
+  value: ''
+photometry_F444We:
+  value: ''

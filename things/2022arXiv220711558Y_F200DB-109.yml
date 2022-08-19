@@ -1,0 +1,58 @@
+default_dec:
+  value: -73.45339722
+default_first_author:
+  value: Yan
+default_id:
+  value: F200DB-109
+default_phot_z:
+  value: 15.8
+default_ra:
+  value: 110.9043333
+default_ref:
+  value: 2022arXiv220711558Y
+extra_jwst_program:
+  value: '2736'
+extra_mass:
+  value: ''
+extra_mass_err_minus:
+  value: ''
+extra_mass_err_plus:
+  value: ''
+extra_muv:
+  value: ''
+extra_muv_err_minus:
+  value: ''
+extra_muv_err_plus:
+  value: ''
+extra_phot_z_err_minus:
+  value: ''
+extra_phot_z_err_plus:
+  value: ''
+extra_spec_z:
+  value: ''
+extra_spec_z_err:
+  value: ''
+photometry_F090W:
+  value: '>29.15'
+photometry_F090We:
+  value: ''
+photometry_F150W:
+  value: '> 29.50'
+photometry_F150We:
+  value: ''
+photometry_F200W:
+  value: '> 29.69'
+photometry_F200We:
+  value: ''
+photometry_F277W:
+  value: '28.88'
+photometry_F277We:
+  value: '0.18'
+photometry_F356W:
+  value: '28.51'
+photometry_F356We:
+  value: '0.12'
+photometry_F444W:
+  value: '29.88'
+photometry_F444We:
+  value: '0.32'

@@ -1,0 +1,58 @@
+default_dec:
+  value: 52.84901111
+default_first_author:
+  value: Whitler
+default_id:
+  value: EGS-11330
+default_phot_z:
+  value: 9.54
+default_ra:
+  value: 214.8969167
+default_ref:
+  value: 2022arXiv220801599W
+extra_jwst_program:
+  value: '1345'
+extra_mass:
+  value: '8.00'
+extra_mass_err_minus:
+  value: '-0.60'
+extra_mass_err_plus:
+  value: '0.70'
+extra_muv:
+  value: '-19.30'
+extra_muv_err_minus:
+  value: '-0.20'
+extra_muv_err_plus:
+  value: '0.20'
+extra_phot_z_err_minus:
+  value: '-0.38'
+extra_phot_z_err_plus:
+  value: '0.81'
+extra_spec_z:
+  value: ''
+extra_spec_z_err:
+  value: ''
+photometry_F090W:
+  value: ''
+photometry_F090We:
+  value: ''
+photometry_F150W:
+  value: ''
+photometry_F150We:
+  value: ''
+photometry_F200W:
+  value: '28.00'
+photometry_F200We:
+  value: '0.15'
+photometry_F277W:
+  value: ''
+photometry_F277We:
+  value: ''
+photometry_F356W:
+  value: ''
+photometry_F356We:
+  value: ''
+photometry_F444W:
+  value: '27.80'
+photometry_F444We:
+  value: '0.25'

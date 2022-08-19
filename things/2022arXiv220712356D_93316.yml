@@ -1,0 +1,58 @@
+default_dec:
+  value: 52.94303333
+default_first_author:
+  value: Donnan
+default_id:
+  value: '93316'
+default_phot_z:
+  value: 16.74
+default_ra:
+  value: 214.9145
+default_ref:
+  value: 2022arXiv220712356D
+extra_jwst_program:
+  value: '1345'
+extra_mass:
+  value: ''
+extra_mass_err_minus:
+  value: ''
+extra_mass_err_plus:
+  value: ''
+extra_muv:
+  value: '21.76'
+extra_muv_err_minus:
+  value: ''
+extra_muv_err_plus:
+  value: ''
+extra_phot_z_err_minus:
+  value: '-0.31'
+extra_phot_z_err_plus:
+  value: '0.17'
+extra_spec_z:
+  value: ''
+extra_spec_z_err:
+  value: ''
+photometry_F090W:
+  value: ''
+photometry_F090We:
+  value: ''
+photometry_F150W:
+  value: ''
+photometry_F150We:
+  value: ''
+photometry_F200W:
+  value: ''
+photometry_F200We:
+  value: ''
+photometry_F277W:
+  value: ''
+photometry_F277We:
+  value: ''
+photometry_F356W:
+  value: ''
+photometry_F356We:
+  value: ''
+photometry_F444W:
+  value: ''
+photometry_F444We:
+  value: ''
