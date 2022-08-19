@@ -236,7 +236,8 @@ class Generator(dict):
 
 
 
-        template = template.replace('{{table_head}}', table_head)\
+        template = template.replace('{{site-title}}',self['title'])\
+                           .replace('{{table_head}}', table_head)\
                            .replace('{{table_body}}', table_body)
 
         # export the index.html
