@@ -13,11 +13,11 @@ default_ref:
 extra_jwst_program:
   value: '1324'
 extra_mass:
-  value: '12.40'
+  value: '12.4'
 extra_mass_err_minus:
-  value: '0.20'
+  value: '0.2'
 extra_mass_err_plus:
-  value: '0.20'
+  value: '0.2'
 extra_muv:
   value: '-20.70'
 extra_muv_err_minus:
